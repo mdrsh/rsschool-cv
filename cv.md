@@ -24,7 +24,7 @@ HTML, CSS, JavaScript
 
 ## Code example
 
-```
+```js
 function numberOfPairs(gloves) {
   return [...new Set(gloves)].reduce((acc, cur) => acc + ~~(gloves.filter((a) => a === cur).length / 2), 0);
 }
